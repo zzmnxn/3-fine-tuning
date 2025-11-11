@@ -1,13 +1,13 @@
-## 4. 최종 결과 비교 및 분석 
---- 결과 비교 테이블 ---
-항목                                  일반 Fine-Tuning            LoRA Fine-Tuning    
---------------------------------------------------------------------------------
-Test Accuracy                       85.15%                    80.95%              
-Training Time                       4.81 min (289 s)          3.94 min (237 s)    
-Peak GPU Memory Usage (GB)          3.08 GB                   1.99 GB             
-Trainable Parameters                110,623,495               1,480,711           
-Total Parameters                    110,623,495               112,104,206         
---------------------------------------------------------------------------------
+### 4. 최종 결과 비교 및 분석 
+
+| 항목 | 일반 Fine-Tuning | LoRA Fine-Tuning |
+| :--- | :---: | :---: |
+| **Test Accuracy** | **85.15%** | 80.95% |
+| **Training Time** | 4.81 min (289 s) | **3.94 min (237 s)** |
+| **Peak GPU Memory Usage (GB)** | 3.08 GB | **1.99 GB** |
+| **Trainable Parameters** | 110,623,495 | **1,480,711** |
+| **Total Parameters** | 110,623,495 | 112,104,206 |
+
 
 ### 결과 분석 요약
 - **정확도:** LoRA Fine-Tuning(80.95%)의 성능은 일반 Fine-Tuning(85.15%)과 **더 낮습니다.**
